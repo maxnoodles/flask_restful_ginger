@@ -1,5 +1,3 @@
-## study form https://coding.imooc.com/class/chapter/220.html#Anchor
-
 ### 一. 蓝图与红图
 
 1. 蓝图是 `app` 级别的分离，蓝图是通过 `add_url_rule` 方法添加 `url` 的，使用自定义的红图调用蓝图的 `add_url_rule` 实现接口级别的分离。并通过添加 `url` 前缀优化代码。
